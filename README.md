@@ -1,14 +1,3 @@
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════╗
-║    visitor@github:~$ whoami                          ║
-║    > Trần Trung Nguyên — Full-Stack Developer        ║
-╚══════════════════════════════════════════════════════╝
-```
-
-</div>
-
 <br>
 
 ## Hi there, I'm **Trần Trung Nguyên** 👋
@@ -47,22 +36,11 @@ const ttn = {
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| 🎯 [**Quiz App**](https://github.com/trtrnguyen14104/Quiz_app) | Interactive quiz application with real-time scoring | JavaScript, HTML/CSS |
-| 💬 [**AloChat**](https://github.com/trtrnguyen14104/Social-Media-AloChat) | Social media platform — group project for Web Dev course | Java, Spring Boot |
+| 🎯 [**Quiz App**](https://github.com/trtrnguyen14104/Quiz_app) | Interactive quiz application with real-time scoring | React, Express.js |
+| 💬 [**AloChat**](https://github.com/trtrnguyen14104/Social-Media-AloChat) | Social media platform — group project for Web Dev course | React, Express.js, Redis, Socket.io |
 
 <br>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=trtrnguyen14104&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=b8ff57&icon_color=b8ff57&text_color=f0ede8)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=trtrnguyen14104&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=b8ff57&text_color=f0ede8)
-
-</div>
-
-<br>
 
 ## 📫 Connect with me
 
