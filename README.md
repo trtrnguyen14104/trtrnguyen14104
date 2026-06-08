@@ -8,7 +8,7 @@ const ttn = {
   location: "Hồ Chí Minh, 🇻🇳",
   role:     "Full-Stack Developer",
   stack:    ["JavaScript", "TypeScript", "React"],
-  status:   "Open to opportunities 🚀",
+  status:   "Open to opportunities",
 };
 ```
 
@@ -44,8 +44,9 @@ const ttn = {
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| 🎯 [**Quiz App**](https://github.com/trtrnguyen14104/Quiz_app) | Interactive quiz application with real-time scoring | React, Express.js |
-| 💬 [**AloChat**](https://github.com/trtrnguyen14104/Social-Media-AloChat) | Social media platform — group project for Web Dev course | React, Express.js, Redis, Socket.io |
+| [**Research-data-managerment-system**](https://github.com/trtrnguyen14104/Quiz_app) | a monorepo for managing research metadata, review workflows, approved research records, audit logs, and future search indexing with Elasticsearch | Next.js, Fastapi |
+| [**Quiz App**](https://github.com/trtrnguyen14104/Quiz_app) | Interactive quiz application with real-time scoring | React, Express.js |
+| [**AloChat**](https://github.com/trtrnguyen14104/Social-Media-AloChat) | Social media platform — group project for Web Dev course | React, Express.js, Redis, Socket.io |
 
 <br>
 
@@ -62,6 +63,3 @@ const ttn = {
 </div>
 
 ---
-<div align="center">
-  <sub>Made with ❤️ in Việt Nam</sub>
-</div>
