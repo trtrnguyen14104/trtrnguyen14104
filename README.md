@@ -7,7 +7,7 @@
 ### Languages
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css" />
 </p>
 
 ### Backend
@@ -28,9 +28,9 @@
   <img src="https://skillicons.dev/icons?i=postgresql,mysql" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
-</p>
+</p> -->
 
 ### Tools
 
@@ -42,7 +42,7 @@
 
 ## 📌 Featured Projects
 
-### 🔬 Research Data Management System
+### Research Data Management System
 
 Repository:
 https://github.com/NTriCuong/Research-data-managerment-system
@@ -62,7 +62,7 @@ Research management platform supporting:
 
 ---
 
-### 📝 Quiz Learning Platform
+### Quiz Learning Platform
 
 Repository:
 https://github.com/trtrnguyen14104/Quiz_app
@@ -80,7 +80,7 @@ Online learning and assessment platform featuring:
 
 ---
 
-### 💬 AloChat Social Platform
+### AloChat Social Platform
 
 Repository:
 https://github.com/trtrnguyen14104/Social-Media-AloChat
@@ -96,16 +96,8 @@ Social networking platform with real-time communication.
 
 ---
 
-## 📊 GitHub Stats
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=trtrnguyen14104&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=trtrnguyen14104&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-## 📫 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://linkedin.com/in/trung-nguy%C3%AAn-tr%E1%BA%A7n-82b1403b8">
