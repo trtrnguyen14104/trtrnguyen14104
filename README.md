@@ -19,7 +19,7 @@
 ### Frontend
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs" />
+  <img src="https://skillicons.dev/icons?i=react" />
 </p>
 
 ### Database
