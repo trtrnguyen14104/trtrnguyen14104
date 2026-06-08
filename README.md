@@ -44,7 +44,7 @@ const ttn = {
 
 | Project | Description | Tech |
 |--------|-------------|------|
-| [**Research-data-managerment-system**](https://github.com/trtrnguyen14104/Quiz_app) | a monorepo for managing research metadata, review workflows, approved research records, audit logs, and future search indexing with Elasticsearch | Next.js, Fastapi |
+| [**Research-data-managerment-system**](https://github.com/NTriCuong/Research-data-managerment-system) | a monorepo for managing research metadata, review workflows, approved research records, audit logs, and future search indexing with Elasticsearch | Next.js, Fastapi |
 | [**Quiz App**](https://github.com/trtrnguyen14104/Quiz_app) | Interactive quiz application with real-time scoring | React, Express.js |
 | [**AloChat**](https://github.com/trtrnguyen14104/Social-Media-AloChat) | Social media platform — group project for Web Dev course | React, Express.js, Redis, Socket.io |
 
