@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Trần Trung Nguyên
 
-### Fullstack Developer | Software Engineering Student
+### Backend / Fullstack Developer Intern
 
 ## 🛠 Tech Stack
 
@@ -42,7 +42,7 @@
 
 ## 📌 Featured Projects
 
-### Research Data Management System
+### Research Data Management System (in progress)
 
 Repository:
 https://github.com/NTriCuong/Research-data-managerment-system
@@ -96,6 +96,14 @@ Social networking platform with real-time communication.
 
 ---
 
+## Portfolio
+<p align="center">
+  <a href="https://trtrnguyen14104.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+---
 
 ## Connect With Me
 
@@ -114,6 +122,7 @@ Social networking platform with real-time communication.
 </p>
 
 ---
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=trtrnguyen14104&label=Profile+Views&color=blue&style=flat" />
