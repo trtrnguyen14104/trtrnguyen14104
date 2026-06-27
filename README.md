@@ -58,7 +58,7 @@ Research management platform supporting:
 
 **Tech Stack**
 
-`FastAPI` `PostgreSQL` `JWT` `Elasticsearch` `Cloudflare R2`
+`FastAPI` `Next.js` `PostgreSQL` `JWT` `Elasticsearch` `Cloudflare R2`
 
 ---
 
@@ -90,7 +90,7 @@ Social networking platform with real-time communication.
 **Tech Stack**
 
 `React`
-`Node.js`
+`Express.js`
 `Redis`
 `Socket.IO`
 
