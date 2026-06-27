@@ -1,8 +1,6 @@
-# 👋 Hi there, I'm Trần Trung Nguyên
+### Backend / Fullstack Developer
 
-### Backend / Fullstack Developer Intern
-
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Languages
 
@@ -40,7 +38,7 @@
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
 ### Research Data Management System (in progress)
 
