@@ -76,7 +76,7 @@ Online learning and assessment platform featuring:
 
 **Tech Stack**
 
-`React` `Express.js` `PostgreSQL`
+`React` `Express.js` `PostgreSQL` `JWT`
 
 ---
 
