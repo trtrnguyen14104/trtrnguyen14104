@@ -84,6 +84,7 @@ Repository:
 https://github.com/trtrnguyen14104/Social-Media-AloChat
 
 Social networking platform with real-time communication.
+Implemented real-time messaging with Socket.IO 
 
 **Tech Stack**
 
