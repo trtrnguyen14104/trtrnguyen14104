@@ -1,0 +1,13 @@
+{
+  "name": "nguyen-github-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "animation:gif": "node scripts/lottie-to-gif.mjs",
+    "metrics": "python scripts/update-metrics.py"
+  },
+  "devDependencies": {
+    "lottie-web": "5.13.0",
+    "playwright": "1.58.2"
+  }
+}
