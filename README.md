@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./animations/hi_im_nguyen.gif" alt="Hi there, I'm Nguyen — animated clouds, rainbows and sparkles" width="851" />
+  <img src="./animations/hi_im_nguyen.gif" alt="Hi there — animated space scene with planets and stars" width="851" />
 </p>
 
 <p align="center">

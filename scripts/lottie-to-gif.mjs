@@ -6,9 +6,11 @@ import { spawn } from 'node:child_process';
 import { chromium } from 'playwright';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const source = path.join(root, 'animations/hi_im_nguyen.json');
+const source = path.join(root, 'animations/space-hi-there.json');
 const output = path.join(root, 'animations/hi_im_nguyen.gif');
 const animation = JSON.parse(await readFile(source, 'utf8'));
+const width = 851;
+const height = Math.round(width * animation.h / animation.w);
 const fps = 25;
 const duration = (animation.op - animation.ip) / animation.fr;
 const frames = Math.ceil(duration * fps);
@@ -18,7 +20,7 @@ let browser;
 try {
   browser = await chromium.launch();
   const page = await browser.newPage({
-    viewport: { width: animation.w, height: animation.h },
+    viewport: { width, height },
     deviceScaleFactor: 1,
   });
   await page.setContent('<html><head><style>html,body{margin:0}#animation{width:100vw;height:100vh}</style></head><body><div id="animation"></div></body></html>');
@@ -54,7 +56,7 @@ try {
     ffmpeg.on('error', reject);
     ffmpeg.on('exit', (code) => code === 0 ? resolve() : reject(new Error(`ffmpeg exited with ${code}`)));
   });
-  console.log(`Created ${output}: ${animation.w}x${animation.h}, ${duration}s, ${fps}fps, ${((await stat(output)).size / 1024 / 1024).toFixed(2)} MiB`);
+  console.log(`Created ${output}: ${width}x${height}, ${duration}s, ${fps}fps, ${((await stat(output)).size / 1024 / 1024).toFixed(2)} MiB`);
 } finally {
   await browser?.close();
   await rm(temporary, { recursive: true, force: true });
