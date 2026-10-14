@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "animation:gif": "node scripts/lottie-to-gif.mjs",
+    "animation:contact": "node scripts/contact-lottie-to-gif.mjs",
     "metrics": "python scripts/update-metrics.py"
   },
   "devDependencies": {

@@ -13,6 +13,15 @@ npx playwright install chromium
 npm run animation:gif
 ```
 
+The contact illustration is rendered from `animations/contact_me_alien.json`.
+It preserves the original six-second timing at 20 frames per second, exported at
+192×341 and displayed at 96 pixels wide to the left of the contact badges.
+Regenerate it with the same dependencies:
+
+```sh
+npm run animation:contact
+```
+
 `scripts/update-metrics.py` generates four self-contained SVGs. Its layout follows
 the two-column isometric-calendar and languages arrangement in the reference.
 It uses Python's standard library and public GitHub data, so a personal access

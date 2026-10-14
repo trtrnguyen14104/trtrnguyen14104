@@ -52,14 +52,23 @@
   Have a project in mind, or just want to say hi? Let's connect!
 </p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/trung-nguyên-trần-82b1403b8">
-    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge" alt="LinkedIn — Trần Trung Nguyên" height="35" />
-  </a>
-  <a href="https://github.com/trtrnguyen14104">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub — trtrnguyen14104" height="35" />
-  </a>
-  <a href="mailto:trtrnguyen14104@gmail.com">
-    <img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail — trtrnguyen14104@gmail.com" height="35" />
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td valign="middle">
+      <img src="./animations/contact_me_alien.gif" alt="Contact me — animated alien reaching toward a skeleton hand" width="96" />
+    </td>
+    <td valign="middle" align="center">
+      <a href="https://linkedin.com/in/trung-nguyên-trần-82b1403b8">
+        <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge" alt="LinkedIn — Trần Trung Nguyên" height="35" />
+      </a>
+      <br />
+      <a href="https://github.com/trtrnguyen14104">
+        <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub — trtrnguyen14104" height="35" />
+      </a>
+      <br />
+      <a href="mailto:trtrnguyen14104@gmail.com">
+        <img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail — trtrnguyen14104@gmail.com" height="35" />
+      </a>
+    </td>
+  </tr>
+</table>
