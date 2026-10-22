@@ -1,9 +1,9 @@
 # Profile maintenance
 
-The profile banner is rendered from `animations/hi_im_nguyen.json`, using the
+The profile banner is rendered from `animations/space-hi-there.json`, using the
 Lottie SVG renderer so image layers, masks, and vector paths retain their original
-appearance. The GIF loops indefinitely at 851×315, 25 frames per second, with the
-original six-second timing.
+appearance. The GIF loops indefinitely at 851×623, 25 frames per second, with the
+original 20-second timing.
 
 To regenerate it, install Node.js and FFmpeg (available on PATH), then run:
 
@@ -12,6 +12,16 @@ npm ci
 npx playwright install chromium
 npm run animation:gif
 ```
+
+To export a separate banner with the dark background panel removed, run:
+
+```sh
+npm run animation:gif:transparent
+```
+
+This writes `animations/hi_im_nguyen_transparent.gif` by removing only the source
+animation's `Background` solid layer. It retains the current space banner's
+851×623 canvas, 20-second loop and 25 frames per second.
 
 The contact illustration is rendered from `animations/contact_me_alien.json`.
 It preserves the original six-second timing at 20 frames per second, exported at

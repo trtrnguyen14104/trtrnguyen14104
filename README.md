@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./animations/hi_im_nguyen.gif" alt="Hi there, I'm Nguyen — animated planets, rocket and asteroids extending beyond a dark space panel" width="851" />
+  <img src="./animations/hi_im_nguyen_transparent.gif" alt="Hi there, I'm Nguyen — animated planets, rocket and asteroids extending beyond a dark space panel" width="851" />
 </p>
 
 <p align="center">

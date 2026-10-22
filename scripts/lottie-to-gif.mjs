@@ -7,8 +7,17 @@ import { chromium } from 'playwright';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const source = path.join(root, 'animations/space-hi-there.json');
-const output = path.join(root, 'animations/hi_im_nguyen.gif');
+const transparent = process.argv.includes('--transparent');
+const output = path.join(root, transparent
+  ? 'animations/hi_im_nguyen_transparent.gif'
+  : 'animations/hi_im_nguyen.gif');
 const animation = JSON.parse(await readFile(source, 'utf8'));
+if (transparent) {
+  const background = animation.layers.find((layer) => layer.ty === 1 && layer.nm === 'Background');
+  if (!background) throw new Error('Expected the Background solid layer in the source animation');
+  // Remove the solid at the source so dark details and moving artwork retain their alpha.
+  animation.layers = animation.layers.filter((layer) => layer !== background);
+}
 const width = 851;
 const fps = 25;
 const duration = (animation.op - animation.ip) / animation.fr;
